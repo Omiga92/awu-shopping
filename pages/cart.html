@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/pages/cart.css">
+    <link rel="shortcut icon" href="../images/bag-shopping-solid.svg" type="image/x-icon">
+    <title>Cart</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="../index.html">
+                        <i class="fa-solid fa-bag-shopping"></i> <span>AWU</span>
+                        <p class="brand-name">Shopping</p>
+                    </a>
+                </div>
+                <div class="links">
+                    <a class="cart" href="./cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        $0.00
+                        <span class="products-number">2</span>
+                    </a>
+                    <a class="link sign-in" href="./signin.html"><i class="fa-solid fa-right-to-bracket"></i>
+                        Sign-in</a>
+                    <a class="link register" href="./register.html"><i class="fa-solid fa-user-plus"></i> Register</a>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="container centent">
+
+        <section class="cart">
+
+            <article class="product">
+                <button><i class="fa-solid fa-trash"></i></button>
+                <p class="price">$123</p>
+                <div class="nbr-product">
+                    <button>-</button>
+                    <div class="quantity">3</div>
+                    <button>+</button>
+                </div>
+                <p class="title">Product Title</p>
+                <img src="../images/4.webp" alt="product image">
+            </article>
+
+            <article class="product">
+                <button><i class="fa-solid fa-trash"></i></button>
+                <p class="price">$123</p>
+                <div class="nbr-product">
+                    <button>-</button>
+                    <div class="quantity">3</div>
+                    <button>+</button>
+                </div>
+                <p class="title">Product Title</p>
+                <img src="../images/6.webp" alt="product image">
+            </article>
+
+            <article class="product">
+                <button><i class="fa-solid fa-trash"></i></button>
+                <p class="price">$123</p>
+                <div class="nbr-product">
+                    <button>-</button>
+                    <div class="quantity">3</div>
+                    <button>+</button>
+                </div>
+                <p class="title">Product Title</p>
+                <img src="../images/5.webp" alt="product image">
+            </article>
+
+        </section>
+
+        <button class="clear">
+            <i class="fa-solid fa-trash"></i>
+            Clear Cart
+        </button>
+
+        <section class="summary">
+            <h1>Cart Summary</h1>
+            <div class="total">
+                <p class="subtotal">Subtotal</p>
+                <p>$1999</p>
+            </div>
+            <button disabled class="checkout">checkout</button>
+            <a href="./signin.html">Please Sign in to continue.</a>
+        </section>
+
+    </div>
+
+    <footer>
+        Designed and developed by <span>Kebbab Abdessamad</span> &copy; 2024
+    </footer>
+</body>
+
+</html>

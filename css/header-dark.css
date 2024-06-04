@@ -1,0 +1,17 @@
+header {
+    background-color: var(--footer-bg);
+    color: var(--white);
+}
+
+nav .logo a:hover {
+    scale: 0.95;
+}
+
+nav .links .link:hover,
+nav .links .cart:hover {
+    border: 1px solid var(--white);
+}
+
+.fa-solid {
+    color: var(--white);
+}
